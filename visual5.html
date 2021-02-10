@@ -1,0 +1,67 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.dropbtn {
+  background-color: yellow;
+  color: white;
+  padding: 20px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: red;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: blue;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: purple;}
+</style>
+</head>
+
+<body>
+<div class="topnav">
+  <a href="index.html">LANDING PAGE</a>
+  <div class="dropdown">
+    <button class="dropbtn">Plots</button>
+    <div class="dropdown-content">
+      <a href="visual5.html">Temp vs Latitude</a>
+      <a href="visual6.html">Humidity vs Latitude</a>
+      <a href="visual7.html">Cloudiness vs Latitude</a>
+      <a href="visual8.html">Wind Speed vs Latitude</a>
+    </div>
+  </div>
+  <a href="comparisons2.html">COMPARISONS</a>
+  <a href="data3.html">DATA</a>
+</div>
+ 
+ 
+<p>.</p>
+<p>.</p>
+<p>.</p>
+
+<p>First, a comparison of temperature against latitude</p>
+
+<img src="https://i.ibb.co/D5NKL6v/templat.png" alt="templat" border="0">
+
+<p>As is clearly visible from the plot, there is correlation between a city's proximity to the equator and its maximum temperature.</p>
+
+</body>
+</html>
